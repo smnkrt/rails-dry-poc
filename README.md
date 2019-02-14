@@ -15,9 +15,9 @@ There are no tests, just run the server and perform GET reqest to following endp
 
 
 ```
-http://localhost:3000/users/transaction\?fail\=true
-http://localhost:3000/users/transaction\?fail\=false
+http://localhost:3000/users/transaction?fail=true
+http://localhost:3000/users/transaction?fail=false
 
-http://localhost:3000/users/auto_inject\?fail\=true
-http://localhost:3000/users/auto_inject\?fail\=false
+http://localhost:3000/users/auto_inject?fail=true
+http://localhost:3000/users/auto_inject?fail=false
 ```
