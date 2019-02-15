@@ -2,7 +2,7 @@
 
 This is a simple Rails app which demonstrates how one can use dependency injection from https://dry-rb.org/
 
-# TLDR
+# Proposed solution
 
 It's just a basic example using manually created containers, nothing fancy,
 but it illustrates how easy it is to use dry gems (dry-container, dry-auto_inject, dry-transaction) within rails app.
