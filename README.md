@@ -37,7 +37,7 @@ Proposed solution looks like this:
 
 
 # Testing it
-There are no tests, just run the server and perform GET reqest to following endpoints.
+There are no tests, just run the server and perform GET request to following endpoints.
 
 ```
 http://localhost:3000/users/transaction?fail=true
