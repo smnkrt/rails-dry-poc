@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module AutoInject
+module UsersAutoInject
   class Create
     def call(input)
       "#{input} - created"

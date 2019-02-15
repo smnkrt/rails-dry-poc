@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module AutoInject
+module UsersAutoInject
   class Validate
     def call(input)
       return 'validation_fail' if input == 'true'

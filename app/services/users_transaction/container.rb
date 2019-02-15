@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
-module Transaction
+module UsersTransaction
   class Container
     extend Dry::Container::Mixin
 
     namespace 'users' do
       register 'validate' do
-        Transaction::Validate.new
+        UsersTransaction::Validate.new
       end
 
       register 'create' do
-        Transaction::Create.new
+        UsersTransaction::Create.new
       end
     end
   end

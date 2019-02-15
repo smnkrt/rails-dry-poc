@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-module AutoInject
+module UsersAutoInject
   Import = Dry::AutoInject(Container)
 end

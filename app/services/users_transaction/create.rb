@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Transaction
+module UsersTransaction
   class Create
     include Dry::Transaction::Operation
 

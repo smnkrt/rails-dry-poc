@@ -2,7 +2,7 @@
 
 require 'dry/transaction/operation'
 
-module Transaction
+module UsersTransaction
   class Service
     include Dry::Transaction(container: Container)
 

@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
-module AutoInject
+module UsersAutoInject
   class Container
     extend Dry::Container::Mixin
 
     namespace 'users' do
       register 'validate' do
-        AutoInject::Validate.new
+        UsersAutoInject::Validate.new
       end
 
       register 'create' do
-        AutoInject::Create.new
+        UsersAutoInject::Create.new
       end
     end
   end

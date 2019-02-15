@@ -2,7 +2,7 @@
 
 require 'dry/transaction/operation'
 
-module AutoInject
+module UsersAutoInject
   class Service
     include Import['users.validate', 'users.create']
 
